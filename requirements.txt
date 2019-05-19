@@ -144,7 +144,6 @@ pylint==2.3.1
 pyodbc==4.0.26
 pyOpenSSL==19.0.0
 pyparsing==2.4.0
-pypiwin32==223
 PyQt5==5.12.2
 PyQt5-sip==4.19.17
 PyQtWebEngine==5.12.1
