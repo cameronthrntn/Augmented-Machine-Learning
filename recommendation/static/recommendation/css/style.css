@@ -1,0 +1,129 @@
+body {
+  background-color: #282C34;
+  color: #EEE;
+}
+
+#myInput {
+  padding: 20px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 0;
+  background: #f1f1f1;
+  width: 100%;
+}
+
+#searchSubmit{
+  padding: 20px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+}
+
+.wrapper{
+  position: absolute;
+	left: 50%;
+  transform: translate(-50%);
+}
+
+.dropdown{
+  position: absolute;
+  left: -30%;
+  transform: translate( -50%);
+}
+
+.movieButton {
+  background:none;
+  border:none;
+  font-size:1em;
+  color: #007BFF;
+}
+
+.dropMenu {
+  position:absolute;
+  float:left;
+  left: 0;
+  min-width:600px;
+  padding:.5rem 0;
+  margin:.125rem 0 0;
+  font-size:1rem;
+  text-align:left;
+  list-style:none;
+  background-color:#eee;
+  background-clip:padding-box;
+  border:1px solid rgba(0,0,0,.15);
+  border-radius:.25rem
+}
+
+.returnLink{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  color: #007BFF;
+}
+
+.recRow {
+  padding: 20px;
+  background-color: #323741;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.38);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.38);
+}
+
+.recRow:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+ }
+
+.recVid {
+  height: 210px;
+}
+
+.recText {
+  height: 210px;
+}
+
+.choiceText {
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+}
+
+.rowButton{
+  width: 100%;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #007BFF;
+  width: 80px;
+  height: 80px;
+  display: none;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+button {
+  border: none;
+  color: #EEE;
+  text-align: left;
+}
